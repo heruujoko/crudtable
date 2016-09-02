@@ -131,7 +131,6 @@
             console.log(required_id);
             if(this.form_data[input.label]){
               this.column_object[required_id].warning = false;
-              this.form_success = true;
             } else {
               this.column_object[required_id].warning = true;
               this.form_success = false;

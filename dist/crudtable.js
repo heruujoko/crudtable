@@ -31329,7 +31329,6 @@ exports.default = {
           console.log(required_id);
           if (_this4.form_data[input.label]) {
             _this4.column_object[required_id].warning = false;
-            _this4.form_success = true;
           } else {
             _this4.column_object[required_id].warning = true;
             _this4.form_success = false;
