@@ -36,6 +36,48 @@ Supported form type :
 3. email
 4. password
 
+## API endpoint
+
+This library assumes your API has common resources structures and match the JSON Spec for the forms
+
+1. GET http://your_endpoint/
+```json
+  [
+    {
+      "name": "name",
+      "email": "email",
+      "password": "password",
+      "description": "description"
+    },
+    {
+      "name": "name",
+      "email": "email",
+      "password": "password",
+      "description": "description"
+    }
+  ]
+```
+2. GET http://your_endpoint/{id}
+```json
+    {
+      "name": "name",
+      "email": "email",
+      "password": "password",
+      "description": "description"
+    }
+```
+2. POST http://your_endpoint/
+3. PUT http://your_endpoint/{id}
+```json
+    {
+      "name": "name",
+      "email": "email",
+      "password": "password",
+      "description": "description"
+    }
+```
+4. DELETE http://your_endpoint/{id}
+
 ## Contributors
 
 Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
