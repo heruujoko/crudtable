@@ -30,6 +30,7 @@ Include [crudtable.js](https://github.com/heruujoko/crudtable/blob/master/dist/c
 ```    
 
 Supported form type :
+
 1. text
 2. textarea
 3. email
