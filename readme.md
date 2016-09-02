@@ -78,6 +78,10 @@ This library assumes your API has common resources structures and match the JSON
 ```
 4. DELETE http://your_endpoint/{id}
 
+## What's Next
+
+Add select , multiselect and file options for forms.
+
 ## Contributors
 
 Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
