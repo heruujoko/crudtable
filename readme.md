@@ -6,13 +6,13 @@ This library helps you create more functional table easily.
 
 Some parts in this project relies on twitter bootstrap and jquery. Please include that in your page.
 
-## Motivation
+## Sample
 
-A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
+![sample](https://github.com/heruujoko/crudtable/blob/master/sample.gif)
 
 ## Installation
 
-Provide code examples and explanations of how to get the project.
+Just include
 
 ## API Reference
 
