@@ -12,15 +12,28 @@ Some parts in this project relies on twitter bootstrap and jquery. Please includ
 
 ## Installation
 
-Include [crudtable.js](https://github.com/heruujoko/crudtable/blob/master/dist/crudtable.js) to your page.
+Include [crudtable.js](https://github.com/heruujoko/crudtable/blob/master/dist/crudtable.js) to your page, and just place this in your page
 
 ```html
   <crud-table endpoint="link_to_your_api_endpoint" columns="your_column_json_spec"></crud-table>
 ```
 
-## Column JSON Spec
+## Column JSON Spec Sample
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+```json
+[
+  { "label": "name" , "type":"text", "required": true},
+  { "label": "email" , "type":"email", "required": true},
+  { "label": "password" , "type":"password", "required": true},
+  { "label": "description" , "type":"textarea", "required": true},
+]
+```    
+
+Supported form type :
+1. text
+2. textarea
+3. email
+4. password
 
 ## Contributors
 
