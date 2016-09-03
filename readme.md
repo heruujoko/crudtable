@@ -2,10 +2,6 @@
 
 This library helps you create more functional table easily.
 
-## Precautions
-
-Some parts in this project relies on twitter bootstrap and jquery. Please include that in your page.
-
 ## Sample
 
 ![sample](https://github.com/heruujoko/crudtable/blob/master/sample.gif)
@@ -87,7 +83,3 @@ This library assumes your API has common resources structures and match the JSON
 ## What's Next
 
 Add select , multiselect and file options for forms.
-
-## Contributors
-
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
