@@ -10,12 +10,17 @@ Some parts in this project relies on twitter bootstrap and jquery. Please includ
 
 ![sample](https://github.com/heruujoko/crudtable/blob/master/sample.gif)
 
+Fiddle : ![fiddle](https://jsfiddle.net/heruujoko/vj7ds7um/)
+Note: the fiddle is just to show how to set up the HTML tags and may not have the full table functionality since I can't provide an API to serve the table.
+
 ## Installation
 
-Include [crudtable.js](https://github.com/heruujoko/crudtable/blob/master/dist/crudtable.js) to your page, and just place this in your page
+Include [crudtable.js](https://github.com/heruujoko/crudtable/blob/master/dist/crudtable.js) to your page, and just wrap it inside a div with id "crudsection"
 
 ```html
+<div id="crudsection">
   <crud-table endpoint="link_to_your_api_endpoint" columns="your_column_json_spec"></crud-table>
+</div>  
 ```
 
 ## Column JSON Spec Sample
