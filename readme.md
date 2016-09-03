@@ -10,7 +10,8 @@ Some parts in this project relies on twitter bootstrap and jquery. Please includ
 
 ![sample](https://github.com/heruujoko/crudtable/blob/master/sample.gif)
 
-Fiddle : https://jsfiddle.net/heruujoko/vj7ds7um/
+Fiddle : https://jsfiddle.net/heruujoko/vj7ds7um/2/
+
 Note: the fiddle is just to show how to set up the HTML tags and may not have the full table functionality since I can't provide an API to serve the table.
 
 ## Installation
